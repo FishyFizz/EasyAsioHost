@@ -1,0 +1,12 @@
+-  Get SDKs at https://www.steinberg.net/developers
+    - VST 3 Audio Plug-ins SDK (3.7.8)
+    - VST Module Architecture SDK (1.0)
+    - ASIO SDK (2.3.3)
+
+- Get boost (1.82.0) and place in /thirdparty/boost
+
+-  Extract SDKs into corresponding folders (./sdk/*_sdk)
+
+-  Use VSCode CMake Tools extension.
+
+-  Configure and build with MSVC toolchain.
